@@ -1,0 +1,39 @@
+# --- Python bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+.venv*/
+pip-wheel-metadata/
+
+# --- Django ---
+db.sqlite3
+staticfiles/
+
+# Local settings or secrets
+.env
+.env.*.local
+local_settings.py
+
+# --- Logs & testing ---
+*.log
+logs/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# --- Editors/IDE ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# NOTE: Keep migrations in Git (do NOT ignore them)
